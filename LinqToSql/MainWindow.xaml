@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="525">
     <Grid>
 
-        <DataGrid x:Name="MeinDataGrid" HorizontalAlignment="Left" Height="400" Margin="10" Width="500" VerticalAlignment="Top"/>
+        <DataGrid x:Name="MainDataGrid" HorizontalAlignment="Left" Height="400" Margin="10" Width="500" VerticalAlignment="Top"/>
 
 
     </Grid>
