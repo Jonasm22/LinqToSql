@@ -21,5 +21,31 @@
         <classShapeMoniker Id="cb4788d3-2868-4d69-b6b8-c6dedb41e59a" />
       </nodes>
     </associationConnector>
+    <classShape Id="4e145a26-e5f8-4055-adc7-3efa46678f53" absoluteBounds="0.625, 3.75, 2, 1.1939925130208326">
+      <DataClassMoniker Name="/LinqToSqlDataClassesDataContext/Lecture" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3bc8a7c4-a8f2-4d67-a676-00f2a0d71d4e" absoluteBounds="0.64000000000000057, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="025c2fb7-264d-4d65-afef-3b5be0b41e21" absoluteBounds="4.375, 3.875, 2, 1.3862939453125">
+      <DataClassMoniker Name="/LinqToSqlDataClassesDataContext/StudentLecture" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79e53c05-8ea1-4c8f-86da-e59a42506e10" absoluteBounds="4.39, 4.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 4.40949625651042); (4.375 : 4.40949625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqToSqlDataClassesDataContext/Lecture/Lecture_StudentLecture" />
+      <nodes>
+        <classShapeMoniker Id="4e145a26-e5f8-4055-adc7-3efa46678f53" />
+        <classShapeMoniker Id="025c2fb7-264d-4d65-afef-3b5be0b41e21" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 2.45359537760417); (5.375 : 3.875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LinqToSqlDataClassesDataContext/Student/Student_StudentLecture" />
+      <nodes>
+        <classShapeMoniker Id="cb4788d3-2868-4d69-b6b8-c6dedb41e59a" />
+        <classShapeMoniker Id="025c2fb7-264d-4d65-afef-3b5be0b41e21" />
+      </nodes>
+    </associationConnector>
   </nestedChildShapes>
 </ordesignerObjectsDiagram>
